@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
+h1 {
+    color:white
+    
+}
+
+h1:hover{
+    color:black
+}
+
+p { 
+    color:white
+}
+
+ol { 
+    font-weight: bold;
+    text-align: left;
+}
+
+img{
+    max-width: 12%;
+    display:block;
+    margin:auto;
+}
+
+.quote {
+    color:white;
+    font-size: 1.875em;
+    width: 20%;
+    margin: 0 auto;
+}
+

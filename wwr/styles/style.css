@@ -1,4 +1,4 @@
-div content{
+#content{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -15,7 +15,7 @@ main section {text-align: center;}
     height: 725px;
 }
 
-body{background-color:#FF6F61;}
+body{background-color:white;}
 header{background-color:#6B5B95;}
 nav a:hover{background-color:#88B04B; color:yellow;}
 .book, .join{background-color:#F7CAC9; color:#B565A7;text-decoration: none;}
@@ -33,11 +33,11 @@ footer a{color:#88B04B;text-decoration: none;}
 footer a:hover{color:aquamarine;}
 
 
-.icon {
+.icon,.logo{
     width: 80px;
 }
 
-hero{
+#hero-img{
     width:100%;
 }
 footer p {

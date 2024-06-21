@@ -1,0 +1,34 @@
+img{width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    text-align: center;}
+
+body {
+    background-color: black;}
+
+.blue{color: blue;}
+.bold{font-size: 3em;
+    font-weight: bold;}
+.text{font-size: 1.5em;
+    color: gray;}
+
+.contain{display: grid;
+grid-template-columns: repeat(3, 1fr);
+background-color: lightblue;}
+
+.item1{grid-template-columns: 1;
+    border-right: 5px solid #ddd;
+background-color: lightblue;}
+.item2{grid-template-columns: 2;
+    border-right: 5px solid #ddd;
+background-color: lightblue;}
+.item3{grid-template-columns: 3;
+background-color: lightblue;}

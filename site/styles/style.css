@@ -82,6 +82,7 @@ p{
     text-align: left;
     color: #69443C;
     font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .disclaimer{ float: left;}
@@ -128,6 +129,7 @@ background-color: #69443C;
 text-align: center;
 margin-bottom: 0;
 font-size: 70px;
+font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -136,7 +138,7 @@ font-size: 70px;
 text-align: center;
 margin-top: 0;
 margin-bottom: 0;
-
+font-family:Arial, Helvetica, sans-serif
 }
 
 img{float: left;
@@ -151,7 +153,8 @@ text-align: center;
 text-align: center;
 font-size: 43px;
 margin-left: 50px;
-margin-right: 50px;}
+margin-right: 50px;
+font-family: Arial, Helvetica, sans-serif;}
 
 full{background-color: #69443C;}
 

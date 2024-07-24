@@ -12,12 +12,7 @@ main{background-image: url("../images/pexels-tirachard-kumtanom-112571-733857.jp
     background-repeat: no-repeat;
 }
 
-grid-container{
-    display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: 25px 1fr;
-    position:relative;
-}
+
 
 .circle {
     height: 80px;
@@ -54,7 +49,7 @@ h2{
 
 }
 
-p10{
+.drapes{
     text-align: center;
     color: #69443C;
     font-size: 2em;
@@ -85,14 +80,42 @@ p{
     font-size: 2em;
 }
 
-.social{
-    text-align: right;
-}
-
+.disclaimer{ float: left;}
 a{color: white;}
 
-header h1{margin-top: -40px;
+header h1{margin-top: -90px;
 margin-bottom: -14px;}
 
 header{margin: 0;
 padding: 0;}
+
+.socialed{
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 50%;}
+
+
+.social{
+    float: right;
+   
+}
+
+menu{display: flex;}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 80px; 
+    height: 80px; 
+    background-color: #69443C; 
+    border-radius: 50%;
+    color: white; 
+    text-decoration: none; 
+    font-size: 14px; 
+    text-align: center; 
+}
